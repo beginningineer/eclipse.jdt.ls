@@ -84,6 +84,10 @@
          id="importers"
          point="org.eclipse.jdt.ls.core.importers">
          <importer
+            id = "bazelProjectImporter"
+            order ="299"
+            class = "com.salesforce.bazel.eclipse.BazelProjectImporter"/> 
+         <importer
             id = "gradleProjectImporter"
             order ="300"
             class = "org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter"/> 
