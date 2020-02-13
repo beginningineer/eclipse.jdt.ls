@@ -1,4 +1,4 @@
-package com.salesforce.bazel.eclipse;
+package com.salesforce.b2eclipse;
 
 import java.io.File;
 import java.util.List;
@@ -9,11 +9,11 @@ import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.OperationCanceledException;
 import org.eclipse.jdt.ls.core.internal.AbstractProjectImporter;
 
-import com.salesforce.bazel.eclipse.abstractions.WorkProgressMonitor;
-import com.salesforce.bazel.eclipse.config.BazelEclipseProjectFactory;
-import com.salesforce.bazel.eclipse.importer.BazelProjectImportScanner;
-import com.salesforce.bazel.eclipse.model.BazelPackageInfo;
-import com.salesforce.bazel.eclipse.runtime.impl.EclipseWorkProgressMonitor;
+import com.salesforce.b2eclipse.abstractions.WorkProgressMonitor;
+import com.salesforce.b2eclipse.config.BazelEclipseProjectFactory;
+import com.salesforce.b2eclipse.importer.BazelProjectImportScanner;
+import com.salesforce.b2eclipse.model.BazelPackageInfo;
+import com.salesforce.b2eclipse.runtime.impl.EclipseWorkProgressMonitor;
 
 public final class BazelProjectImporter extends AbstractProjectImporter {
 

@@ -86,7 +86,7 @@
          <importer
             id = "bazelProjectImporter"
             order ="299"
-            class = "com.salesforce.bazel.eclipse.BazelProjectImporter"/> 
+            class = "com.salesforce.b2eclipse.BazelProjectImporter"/> 
          <importer
             id = "gradleProjectImporter"
             order ="300"
